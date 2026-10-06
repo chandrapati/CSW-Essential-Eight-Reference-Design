@@ -49,7 +49,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -411,12 +411,12 @@ find "${TARGET_ROOT}" -type f -print0 | sort -z | xargs -0 sha256sum > "${TARGET
 
 ## Appendix A — Related Frameworks
 
-- [CIS Controls v8](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/CIS-Controls-v8/CSW-CIS-Technical-Runbook.md) — control themes aligned to hardening and visibility narratives.
-- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — zero trust segmentation patterns supporting **E5** path restriction.
-- [ISO/IEC 27001:2022](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md) — for organizations mapping Essential Eight to broader ISMS audits.
+- [CIS Controls v8](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/CIS-Controls-v8/CSW-CIS-Technical-Runbook.md) — control themes aligned to hardening and visibility narratives.
+- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — zero trust segmentation patterns supporting **E5** path restriction.
+- [ISO/IEC 27001:2022](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md) — for organizations mapping Essential Eight to broader ISMS audits.
 
 
-- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/UK-NCSC-CAF/caf-mapping.md) — E2 and E6 patch evidence is the reuse path for CAF B4.
+- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/UK-NCSC-CAF/caf-mapping.md) — E2 and E6 patch evidence is the reuse path for CAF B4.
 
 ---
 
@@ -440,4 +440,4 @@ find "${TARGET_ROOT}" -type f -print0 | sort -z | xargs -0 sha256sum > "${TARGET
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*

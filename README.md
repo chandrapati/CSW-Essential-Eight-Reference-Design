@@ -127,4 +127,4 @@ Authoritative source(s) for **Australian Essential Eight**. Always validate cont
 
 This repository is for informational and planning purposes. It is **not** legal, regulatory, audit, or certification advice, and it is **not** a Australian Essential Eight attestation. Validate all control references against the current official Australian Essential Eight text ([official source](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight)), your environment, and your qualified assessor. Replace any bracketed fields before customer delivery.
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*
